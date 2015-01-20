@@ -1,0 +1,76 @@
+﻿html, body {
+    height: 100%;
+    width: 100%;
+    /*border: 3px dotted red;*/
+    padding: 0;
+    margin: 0;
+}
+
+.pointer {
+    font-size: 8em;
+}
+
+.buttonbar {
+    display:table;
+}
+
+.button-helper {
+    display:table-cell;
+    vertical-align:middle;
+}
+
+.button {
+    display: block;
+    width: 100%;
+    height: 2em;
+    font-size: 4em;
+}
+
+.main-container > div.buttonbar {
+    float: left;
+    /*display: inline-block;*/
+    height: 100%;
+    width: 15%;
+}
+
+.main-container > div.slider {
+    float: left;
+    display: inline-block;
+    height: 100%;
+    width: 35%;
+}
+
+.main-container {
+    background-color: transparent;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    /*border: 2px dotted green;*/
+}
+
+.slider-item {
+    height: 33%;
+    display: block;
+    font-size: 16em;
+    font-weight: 500;
+    text-align: center;
+    border: 1px solid black;
+    margin: auto 0;
+}
+
+.selected-slider-item {
+    background-color: lightblue;
+}
+
+.pointer {
+    position: absolute;
+    top: 39%;
+}
+
+.selected-left-pointer {
+    left: 45%;
+}
+
+.selected-right-pointer {
+    right: 45%;
+}
