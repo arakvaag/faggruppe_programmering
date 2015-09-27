@@ -1,0 +1,1 @@
+Faggruppemøte om GIT
